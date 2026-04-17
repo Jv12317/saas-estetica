@@ -1,6 +1,6 @@
 import type { LoginData, LoginResponse, Servico, Profissional, Agendamento } from '../types/index'
 
-const API_URL = 'http://localhost:3000'
+const API_URL = 'http://192.168.1.16:3000'
 
 function getToken() {
   return localStorage.getItem('token')
