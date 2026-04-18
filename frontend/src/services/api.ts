@@ -1,6 +1,6 @@
 import type { LoginData, LoginResponse, Servico, Profissional, Agendamento } from '../types/index'
 
-const API_URL = 'http://192.168.1.16:3000'
+const API_URL = 'https://practical-abundance-production-aae3.up.railway.app'
 
 function getToken() {
   return localStorage.getItem('token')
